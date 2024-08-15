@@ -2,6 +2,18 @@
 
 This CLI tool helps you quickly create and customize React projects using either Vite or Create React App. It also allows you to choose between JavaScript and TypeScript, and installs additional dependencies like `react-router-dom` and `apisauce`. Furthermore, it customizes the project by copying predefined source files.
 
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14.x or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+## Usage
+
+You can run the CLI tool directly through `npx` without cloning the repository:
+
+```bash
+npx your-cli-package-name
+
 ## Features and Highlights
 
 This CLI tool not only scaffolds a basic React project but also includes a robust project structure and additional features to help streamline development.
@@ -24,14 +36,24 @@ This CLI tool not only scaffolds a basic React project but also includes a robus
 ### 5. **API Layer with `apisauce`**
    - **API Setup**: The project includes an API layer set up using `apisauce`. This provides a structured way to handle API requests and responses, with built-in error handling and response normalization.
 
-## Prerequisites
+## Folder Structure
 
-- [Node.js](https://nodejs.org/) (v14.x or higher)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+The project comes with a well-organized folder structure that includes:
 
-## Usage
+- **api/**: Contains logic related to API requests and services.
+- **assets/**: Houses static assets like images and icons.
+- **components/**: For reusable React components used across the application.
+- **config/**: Stores configuration files such as environment settings and API configurations.
+- **constants/**: Holds constant values that are used throughout the app (e.g., API URLs, action types).
+- **context/**: Manages global state through the Context API.
+- **hooks/**: Contains custom React hooks.
+- **language/**: Handles localization or language management (e.g., translations).
+- **navigations/**: Manages navigation routes, including the setup of React Router.
+- **pages/**: Divided into different sections, including Auth pages (e.g., login, signup) and Main pages (e.g., dashboard, home).
+- **utilities/**: Includes utility functions that can be reused throughout the app.
+- **App.css**: Styling for the main `App` component.
+- **App.jsx**: The main `App` component, which serves as the root of the application.
+- **index.css**: Global styles for the application.
+- **main.jsx**: The entry point for the React app, where the root component is rendered.
 
-You can run the CLI tool directly through `npx` without cloning the repository:
-
-```bash
-npx your-cli-package-name
+This folder structure ensures that your project is scalable, maintainable, and easy to navigate.
