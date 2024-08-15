@@ -13,6 +13,7 @@ You can run the CLI tool directly through `npx` without cloning the repository:
 
 ```bash
 npx your-cli-package-name
+```
 
 ## Features and Highlights
 
