@@ -12,7 +12,7 @@ This CLI tool helps you quickly create and customize React projects using either
 You can run the CLI tool directly through `npx` without cloning the repository:
 
 ```bash
-npx your-cli-package-name
+npx react-boilerplate-generator
 ```
 
 ## Features and Highlights
@@ -58,3 +58,7 @@ The project comes with a well-organized folder structure that includes:
 - **main.jsx**: The entry point for the React app, where the root component is rendered.
 
 This folder structure ensures that your project is scalable, maintainable, and easy to navigate.
+
+## License
+
+This package is licensed under the MIT License. See the LICENSE file for more information.
